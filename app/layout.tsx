@@ -1,0 +1,61 @@
+import type { Metadata } from "next";
+import { Geist, Geist_Mono, Stack_Sans_Notch } from "next/font/google";
+import "./globals.css";
+import { ThemeProvider } from "next-themes";
+import Navbar from "@/components/Navbar";
+import BackgroundBats from "@/components/BackgroundBats";
+import BackgroundIconsLight from "@/components/BackgroundIconsLight";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+const stackSansNotch = Stack_Sans_Notch({
+  variable: "--font-stack-sans-notch",
+  subsets: ["latin"]
+})
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "Sangram-Full Stack Developer",
+  description: "Portfolio of a full stack developer",
+  icons: {
+    icon: '/favIcon1.png',
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      {/* <ReactLenis root> */}
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${stackSansNotch.variable} antialiased min-h-screen bg-linear-to-t dark:bg-linear-to-t from-[#ffffff] to-[#fffeff] via-[#faf5fd] via-10% dark:from-[#0b0b0b] dark:to-[#000000] dark:via-[#080808] via-10% scrollbar-hide relative   
+        `}
+      >
+        <ThemeProvider attribute="class" enableSystem defaultTheme="system">
+
+          <BackgroundBats />
+          <BackgroundIconsLight />
+          <div className="hidden lg:block z-10  min-h-screen h-full absolute border border-[#f4f3f4] dark:border-neutral-950 left-1/6" />
+          <div className="hidden lg:block z-10  min-h-screen h-full absolute border border-[#f4f3f4] dark:border-neutral-950 right-1/6" />
+          <Navbar />
+          {children}
+          {/* Gradient shade for light mode */}
+          <div className=" z-50  absolute bottom-0 left-0 w-full h-8  bg-gradient-to-t from-white via-white/50 to-transparent blur-lg pointer-events-none dark:hidden sticky" />
+
+          {/* Gradient shade for dark mode */}
+          <div className=" z-50 hidden dark:block  absolute bottom-0 left-0 w-full h-5 bg-gradient-to-t from-white/20 via-white/20 to-transparent blur-lg pointer-events-none sticky" />
+
+        </ThemeProvider>
+      </body>
+      {/* </ReactLenis> */}
+    </html>
+  );
+}
