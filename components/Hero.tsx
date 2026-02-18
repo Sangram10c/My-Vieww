@@ -26,11 +26,11 @@ const Hero = () => {
           className="border-black px-3  rounded-lg flex gap-2 items-end"
         >
           <Image
-            src="/pfp.PNG"
+            src="/Me.png"
             alt="profile-pic"
             width={400}
             height={600}
-            className="border h-40 w-40 object-cover object-top rounded-2xl dark:hidden"
+            className="border h-45 w-40 object-cover object-top rounded-2xl dark:hidden"
           />
           <Image
             src="/batman1.png"
@@ -56,7 +56,7 @@ const Hero = () => {
           className=" px-3 text-4xl md:text-6xl font-black text-neutral-700 dark:text-white"
         >
           HIE, my name is
-          <span className="text-[#c562fa] dark:text-[#626161]"> PRIYANshu</span>
+          <span className="text-[#c562fa] dark:text-[#626161]"> SANGRAM</span>
         </motion.h1>
 
         {/* Subtext */}
@@ -108,7 +108,7 @@ const Hero = () => {
                   hover:-translate-y-0.5 translate-y-0 duration-100 delay-75 transition-all ease-in-out 
                   "
                   >
-                    <Icon className="h-3 w-3 md:h-4 md:w-4 " />
+                    <Icon className="h-3 w-3 md:h-4 md:w-4 mx-2" />
                     {tech.name}
                   </a>
                 );
@@ -123,7 +123,7 @@ const Hero = () => {
 
             <div className=' flex flex-wrap gap-2 md:gap-4 py-4'>
               <Link
-                href="https://docs.google.com/document/d/1Rtj4lzetbkw3hBYM6ylbnqxDvwkpd0la0UZDbEPI-W0/edit?usp=sharing"
+                href="https://drive.google.com/file/d/1oykhAPlaz6i4DlKYpp03_1zPrbVctAXO/view?usp=drive_link"
                 target="_blank"
                 className="
             hover:-translate-y-0.5  translate-y-0

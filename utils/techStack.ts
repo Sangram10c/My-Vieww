@@ -1,5 +1,5 @@
 import { FaReact, FaNodeJs, FaDocker } from "react-icons/fa";
-import { SiNextdotjs, SiPostgresql, SiTurborepo } from "react-icons/si";
+import { SiJavascript, SiNextdotjs, SiPostgresql, SiTurborepo } from "react-icons/si";
 
 export const techStack = [
   { name: "React", url: "https://react.dev/", icon: FaReact },
@@ -7,5 +7,5 @@ export const techStack = [
   { name: "Node.js", url: "https://nodejs.org/", icon: FaNodeJs },
   { name: "PostgreSQL", url: "https://www.postgresql.org/", icon: SiPostgresql },
   { name: "Docker", url: "https://www.docker.com/", icon: FaDocker },
-  { name: "Turborepo", url: "https://turbo.build/repo", icon: SiTurborepo }
+  { name: "JavaScript", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript", icon: SiJavascript }
 ];

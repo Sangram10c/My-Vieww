@@ -18,7 +18,7 @@ export const About = () => {
                         className="relative aspect-[3/4] w-full max-w-sm mx-auto md:mx-0 rounded-2xl overflow-hidden shadow-xl"
                     >
                         <Image
-                            src="/about3.JPG"
+                            src="/MyPhoto.jpeg"
                             alt="About Me"
                             fill
                             quality={100}
@@ -39,11 +39,11 @@ export const About = () => {
                             About Me
                         </h2>
                         <p className=" text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                            Hello! I'm Sangram, a Full-Stack developer building Web applications from the serene mountains of Maharashtra<MountainSnow className=" inline-flex -mt-1 h-4 w-4  mx-1 text-green-800"/>.
+                            Hi! I’m Sangram Chougule, a MERN Stack Developer based in Pune, Maharashtra, with a background in Computer Engineering (Graduate, 2025). I enjoy building modern, scalable web applications and turning ideas into clean, functional user experiences.
                         </p>
                         <div>
                             <p className="   text-neutral-600 dark:text-neutral-400 leading-relaxed">
-                               I love solving complex problems and believe in moving fast—which is why I constantly deep-dive into new tech, from Gen AI to DevOps. My coding journey was started in 2023 when I found a clear purpose and a burning desire to build something meaningful. I embraced the challenge of switching from a non-tech background, mastered the real-world skills, and I'm now pursuing my MCA and my dream to architect the next big thing.
+                               I’m driven by curiosity and a hands-on mindset, constantly sharpening my skills across the MERN stack while exploring new tools and best practices in real-world development. Outside of coding, you’ll usually find me bike riding or gaming, which keeps me refreshed and fuels my problem-solving mindset. My goal is to keep growing as a developer and contribute to impactful, well-engineered products.
                             </p>
                         </div>
 

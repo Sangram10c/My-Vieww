@@ -37,16 +37,16 @@ export default function Contact() {
                 
 
                     <Link
-                        href="https://www.instagram.com/priyanshu_9_8_03/"
+                        href="https://www.instagram.com/saangram_?igsh=cmR4OTl6M2Q3bHg4"
                         target="_blank"
                         className="flex items-center gap-2 px-4 py-2 bg-neutral-100 dark:bg-neutral-800 rounded-lg text-neutral-700 dark:text-neutral-200 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors"
                     >
                         <TbBrandInstagram className="text-lg " />
-                        <span className="font-medium text-sm md:text-base">@saaangram_</span>
+                        <span className="font-medium text-sm md:text-base">@saangram_</span>
                     </Link>
 
                     <Link
-                        href="https://www.linkedin.com/in/priyanshu-chandra-tamta-641123320/"
+                        href="https://www.linkedin.com/in/sangram-chougule-676143262/"
                         target="_blank"
                         className="flex items-center gap-2 px-4 py-2 bg-neutral-100 dark:bg-neutral-800 rounded-lg text-neutral-700 dark:text-neutral-200 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors"
                     >
@@ -55,7 +55,7 @@ export default function Contact() {
                     </Link>
 
                     <Link
-                        href="https://github.com/Priyanshu090803"
+                        href="https://github.com/Sangram10c"
                         target="_blank"
                         className="flex items-center gap-2 px-4 py-2 bg-neutral-100 dark:bg-neutral-800 rounded-lg text-neutral-700 dark:text-neutral-200 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors"
                     >
@@ -71,7 +71,7 @@ export default function Contact() {
                             href="mailto:priyanshu121@gmail.com"
                             className="text-neutral-900 dark:text-white underline decoration-neutral-400 underline-offset-4 hover:decoration-neutral-900 dark:hover:decoration-white transition-all text-sm md:text-base"
                         >
-                            priyanshu121@gmail.com
+                            chougulesangram3@gmail.com
                         </a>
                     </p>
                     <button

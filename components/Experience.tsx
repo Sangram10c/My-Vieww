@@ -7,46 +7,34 @@ import { motion } from "motion/react";
 const experiences = [
     {
         featured: true,
-        role: "Freelance Developer",
-        company: "Jewellery Shop Project",
-        date: "Oct 2025 - Nov 2025",
+        role: "Full Stack Developer ",
+        company: "Well Played Sports Pvt Ltd",
+        date: "Jan 2025 - Sep 2025",
         location: "Remote",
         description: [
-            "Developed landing page, login/signup flows and admin dashboard using React, TypeScript, and Redux Toolkit.",
-            "Integrated RESTful APIs with Axios for seamless data fetching and state management.",
-            "Implemented secure authentication and role-based access control."
+            "Worked as a Full Stack Developer on a real-time cricket analytics platform, contributing across backend services and feature integration using Node.js, Express.js, Sequelize, and MySQL.",
+            "Developed and maintained scalable APIs for live match data, player statistics, and innings summaries, with careful handling of cricket-specific scenarios such as wides, no-balls, leg byes, and byes.",
+            "Improved performance and code quality by refactoring reusable logic modules and optimizing complex databasequeries."
         ],
-        technologies: ["React", "TypeScript", "Redux Toolkit", "Axios", "Tailwind CSS", "Next.js"],
-        icon: GiJewelCrown,
-        iconBg: "bg-black text-white dark:bg-white dark:text-black"
-    },
-    {
-        role: "Full Stack Developer Intern",
-        company: "Aviraj Infotech",
-        date: "April 2025 - Oct 2025",
-        location: "Remote",
-        description: "Internship of 6 months as a full stack developer.",
+        technologies: ["React", "TypeScript", "Node.Js", "Express.js", "MySQL", "Jira"],
         icon: TbBriefcase,
         iconBg: "bg-blue-100 text-blue-600 dark:bg-blue-900 dark:text-blue-300"
     },
     {
-        role: "Contractor",
-        company: "Octoreal",
-        date: "2025",
+        featured: true,
+        role: "Front-End Developer",
+        company: "RenuSharma Foundation",
+        date: "Sep 2024 - Dec 2024",
         location: "Remote",
-        description: "Worked as a contractor for a web development agency.",
-        icon: TbBrandOperaFilled,
+        description: [
+            "Contributed to the development of a responsive web application using React.js, with backend integration through Node.js and Express.js.",
+            "Designed and implemented clean, user-friendly interfaces, focusing on usability, accessibility, and visual consistency.",
+            "Integrated RESTful APIs and used JavaScript with MySQL to efficiently manage and display dynamic, real-time data."
+        ],
+        technologies: ["React", "TypeScript", "Node.Js", "Express.js", "Tailwind CSS", "JavaScript","MySQL", "Jira"],
+        icon: TbBriefcase,
         iconBg: "bg-purple-100 text-purple-600 dark:bg-purple-900 dark:text-purple-300"
     },
-    {
-        role: "Freelance-website",
-        company: "Abhilasha Samiti",
-        date: "Nov 2025",
-        location: "Remote",
-        description: "Redeveloped and fixed the website for the NGO.",
-        icon: FaAdn,
-        iconBg: "bg-emerald-600 text-white"
-    }
 ];
 
 export default function Experience() {
