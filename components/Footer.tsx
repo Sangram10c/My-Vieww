@@ -4,7 +4,7 @@ export function Footer() {
            
             <p className="text-center px-4 text-neutral-600 dark:text-neutral-300 text-sm md:text-base w-full relative z-10">
                 <span className="dark:hidden">
-                    "Do the hard things- that&apos;s where the value is." <span className="font-light text-xs md:text-sm text-neutral-400">—Priyanshu</span>
+                    "Do the hard things- that&apos;s where the value is." <span className="font-light text-xs md:text-sm text-neutral-400">-Sangram</span>
                 </span>
                 <span className="hidden dark:inline">
                     "Men are brave." <span className="font-light text-xs md:text-sm text-neutral-500">—Batman</span>

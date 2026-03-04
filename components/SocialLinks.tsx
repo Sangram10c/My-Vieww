@@ -15,7 +15,6 @@ export const SocialLinks = () => {
 
     const socialLinks = [
         { Icon: TbBrandInstagram, color: "hover:text-[#E1306C] dark:hover:text-[#E1306C]", href: "https://www.instagram.com/saangram_?igsh=cmR4OTl6M2Q3bHg4" },
-        { Icon: TbBrandX, color: "hover:text-black dark:hover:text-white", href: "" },
         { Icon: TbMail, color: "hover:text-[#EA4335] dark:hover:text-[#EA4335]", href: "mailto:chougulesangram3@gmail.com", isEmail: true },
         { Icon: TbBrandGithub, color: "hover:text-[#333] dark:hover:text-white", href: "https://github.com/Sangram10c" },
         { Icon: TbBrandLinkedin, color: "hover:text-[#0077B5] dark:hover:text-[#0077B5]", href: "https://www.linkedin.com/in/sangram-chougule-676143262/" },
